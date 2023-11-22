@@ -289,9 +289,6 @@ local hysteria = {
 	} or nil,
 	transport = {
 		type = server.transport_protocol
-//		udp = { 
-//			hopInterval = tonumber(server.hopinterval) and tonumber(server.hopinterval) .. "s" or nil
-//		}
 	},
 --[[			
 	tcpTProxy = (proto:find("tcp") and local_port ~= "0") and {
